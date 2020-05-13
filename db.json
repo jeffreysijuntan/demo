@@ -4,30 +4,30 @@
     "clusters": [
         {
             "baseline": {
-                ...             # baseline topic object
+
             },
             "entries": {
                 "mediabias": {
                     "left": [
-                        ...     # list of news objects
+                       
                     ],
                     "right": [
-                        ...     # list of news objects
+                       
                     ],
                     "center": [
-                        ...     # list of news objects
+                       
                     ],
                 },
                 "international": {
                     "east": [
-                        ...     # list of news objects
+                       
                     ],
                     "west": [
-                        ...     # list of news objects
+                        
                     ]
                 },
                 "relevant": [
-                    ...         # list of news objects
+                   
                 ]
             }
         },
