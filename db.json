@@ -1,14 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "num_clusters": 5,
+    "group": "group_one",
+    "clusters": [
+        {
+            "baseline": {
+                ...             # baseline topic object
+            },
+            "entries": {
+                "mediabias": {
+                    "left": [
+                        ...     # list of news objects
+                    ],
+                    "right": [
+                        ...     # list of news objects
+                    ],
+                    "center": [
+                        ...     # list of news objects
+                    ],
+                },
+                "international": {
+                    "east": [
+                        ...     # list of news objects
+                    ],
+                    "west": [
+                        ...     # list of news objects
+                    ]
+                },
+                "relevant": [
+                    ...         # list of news objects
+                ]
+            }
+        },
+        ...
+    ]
 }
